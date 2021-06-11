@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Kozmo News",
+    "slug": "kozmo-news",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/newsIcon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash-screen.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#fff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.kozmotech.kozmonews",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/newsIcon.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    }
+  }
+}
